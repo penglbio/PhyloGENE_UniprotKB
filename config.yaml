@@ -1,0 +1,53 @@
+seq_info:
+        type: Protein-blastp
+        
+
+path: /work/users/pengl24/Project/PhyloINTS3/fasta 
+
+sel_samples: 
+- NRD1
+- PCF11
+- PHF3
+- PIN1
+- RNGTT
+- RPRD1A
+- RPRD1B
+- RPRD2
+- SCAF8
+- SET2
+- TDRD3
+samples:
+- NRD1
+- PCF11
+- PHF3
+- PIN1
+- RNGTT
+- RPRD1A
+- RPRD1B
+- RPRD2
+- SCAF8
+- SET2
+- TDRD3
+sel_factors: NRD1,PCF11,PHF3,PIN1,RNGTT,RPRD1A,RPRD1B,RPRD2,SCAF8,SET2,TDRD3
+
+tree_factors: NRD1,PCF11,PHF3,PIN1,RNGTT
+
+conda_path: /work/users/pengl24/miniconda3/envs/pubsoft/bin
+
+conda_Rpath: /work/users/pengl24/miniconda3/envs/jupyter/bin/Rscript
+#uniprotKB blastdatase
+uniprotKB: /work/bioshare/reference/UniProt/complete/uniprotKB/uniprotKB
+#uniprotKB_protein
+uniprotKB_protein: /work/bioshare/reference/UniProt/complete/uniprotKB.fasta
+#uniprotKB gene name include annotation
+uniprotkb_name: /work/bioshare/reference/UniProt/complete/uniprotKB_name1.tsv
+#>5000 proteins species  
+Uniprot_taxid_up5000: /work/bioshare/reference/UniProt/complete/UniprotKB_name/uniprotKB_name_taxid_counts_freq_sort_clean_up5000.tsv
+## proteins species
+Uniprot_taxid: /work/bioshare/reference/UniProt/complete/UniprotKB_name/uniprotKB_name_taxid_counts_freq_sort_with_notion_clean.tsv
+
+#pfam,cdd注释
+Uniprot_Ann: /work/bioshare/reference/UniProt_Annotation_Data/uniprot_annotation_recheck.tsv
+
+
+
