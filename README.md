@@ -22,8 +22,8 @@ cd PhyloGene_UniprotKB
 ```
 #prepare interested genes with fasta format. for example INTS3.fasta, then store the file in a fasta directory
 mkdir fasta
-vi INTS3.fasta
-#copy the fasta format file to INTS3.fasta file,and save
+vi gene_name.fasta
+#copy the fasta format file to gene_name.fasta file,and save
 cd ..
 ```
 
